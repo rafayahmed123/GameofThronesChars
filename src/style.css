@@ -1,0 +1,64 @@
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.author {
+  margin-top: -10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.chardiv {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 30%);
+  justify-content: center;
+}
+
+.btndiv {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+button {
+  background-color: gainsboro;
+  color: black;
+  font-weight: bolder;
+  font-size: 10px;
+  margin: 20px;
+  width: 10%;
+  border-radius: 20px;
+  min-height: 40px;
+}
+
+/*Characters.js styles*/
+
+.charInfo {
+  background-color: whitesmoke;
+  color: color;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 10px;
+  min-height: 110px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.charInfo:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.culture {
+  color: cornflowerblue;
+}
